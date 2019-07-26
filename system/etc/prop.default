@@ -34,7 +34,7 @@ ro.com.google.gmsversion=9_201903
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Tue May 14 19:00:13 CST 2019
-ro.bootimage.build.date.utc=1557831613
-ro.bootimage.build.fingerprint=Android/sdm660_64/sdm660_64:9/PKQ1/16.2017.1905.053-20190513:user/release-keys
+ro.bootimage.build.date=Wed Jul 3 17:12:16 CST 2019
+ro.bootimage.build.date.utc=1562145136
+ro.bootimage.build.fingerprint=Android/sdm660_64/sdm660_64:9/PKQ1/16.2017.1906.055-20190703:user/release-keys
 persist.sys.usb.config=none

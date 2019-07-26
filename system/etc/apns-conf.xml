@@ -5464,7 +5464,7 @@
         mmsport="8799"
         mmsproxy="172.16.1.25"
         mnc="06"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="data.dk"
@@ -5474,7 +5474,7 @@
         mmsport="8799"
         mmsproxy="172.016.053.012"
         mnc="06"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="Mobinilweb"
@@ -5965,7 +5965,7 @@
         mmsport="8080"
         mmsproxy="195.182.114.114"
         mnc="07"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="internet"
@@ -5975,7 +5975,7 @@
         mmsport="8080"
         mmsproxy="82.113.100.5"
         mnc="08"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="pinternet.interkom.de"
@@ -5985,7 +5985,7 @@
         mmsport="8080"
         mmsproxy="195.182.114.114"
         mnc="08"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="internet"
@@ -5996,7 +5996,7 @@
         mmsport="8080"
         mmsproxy="82.113.100.5"
         mnc="07"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="pinternet.interkom.de"
@@ -6007,7 +6007,7 @@
         mmsport="8080"
         mmsproxy="82.113.100.6"
         mnc="07"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="internet.partner1"
@@ -13434,6 +13434,14 @@
         mnc="10"
         protocol="IPV6"
         type="ims" />
+    
+     <apn
+        authtype="2"
+        type="default,supl,dun"
+        apn="spmode.ne.jp"
+        mnc="10"
+        mcc="440"
+        carrier="spモード"/>
 
     <apn
         apn="line.me"
@@ -13444,6 +13452,25 @@
         password="line"
         type="default,supl,dun"
         user="line@line" />
+
+    <apn
+        authtype="3"
+        type="default,supl,dun"
+        password="line"
+        user="line@line"
+        apn="line.me"
+        mnc="50" mcc="440"
+        carrier="LINEモバイル"/>
+
+    <apn
+        authtype="3"
+        type="default,supl,dun"
+        password="line"
+        user="line@line"
+        apn="line.me"
+        mnc="51"
+        mcc="440"
+        carrier="LINEモバイル"/>
 
     <apn
         apn="mineo-s.jp"
@@ -13721,6 +13748,15 @@
         protocol="IPV4V6"
         type="default,mms,supl,hipri,dun"
         user="uq@uqmobile.jp" />
+    
+    <apn
+        authtype="3"
+        type="emergency"
+        apn="sos"
+        mnc="50"
+        mcc="440"
+        carrier="sos"
+        protocol="IPV4V6"/>
 
     <apn
         apn="mineo-d.jp"
@@ -14559,7 +14595,7 @@
         mmsproxy="202.75.133.49"
         mnc="12"
         password="wap"
-        type="*"
+        type="default,mms,supl,dun,hipri,fota,cbs"
         user="maxis" />
 
     <apn
@@ -18192,7 +18228,7 @@
         mmsport="8799"
         mmsproxy="mms.three.co.uk"
         mnc="20"
-        type="*" />
+        type="default,mms,supl,dun,hipri,fota,cbs" />
 
     <apn
         apn="goto.virginmobile.uk"

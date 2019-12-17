@@ -1,8 +1,8 @@
 
 ro.product.first_api_level=27
-ro.vendor.build.date=Fri Sep 20 15:59:59 CST 2019
-ro.vendor.build.date.utc=1568966399
-ro.vendor.build.fingerprint=Android/sdm660_64/sdm660_64:9/PKQ1/16.2017.1910.059-20190920:user/release-keys
+ro.vendor.build.date=Mon Nov 25 11:08:58 CST 2019
+ro.vendor.build.date.utc=1574651338
+ro.vendor.build.fingerprint=Android/sdm660_64/sdm660_64:9/PKQ1/16.2017.1912.060-20191125:user/release-keys
 ro.vendor.build.security_patch=2018-06-05
 ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
@@ -35,8 +35,8 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=512k
 dalvik.vm.heapmaxfree=8m
 vendor.hw.fm.init=0
-ro.huaqin.version.release=ZQL1650P_S059_USR_201909201430_master
-ro.external.version.code=PKQ1.WW_Phone-16.2017.1910.059-20190920
+ro.huaqin.version.release=ZQL1650P_S060_USR_201911251000_master
+ro.external.version.code=PKQ1.WW_Phone-16.2017.1912.060-20191125
 ro.product.first_api_level=27
 persist.bt.max.hs.connections=2
 persist.bt.max.a2dp.connections=1
